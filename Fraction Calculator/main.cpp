@@ -116,6 +116,10 @@ Fraction Eval(string s, Stack<Value> &numStack, Stack<char> &opStack, Dictionary
     return numStack.peek().fraction;
 }
 
+bool is_valid(expresion){
+    
+}
+
 int main() {
 
     Dictionary vars;
